@@ -9,8 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-    open-pull-requests-limit: 10
-    target-branch: "Automatic_version_update_dependabot"
+    open-pull-requests-limit: 1
+    target-branch: "Develop/Features/TD-3683_implement_central_package_management_webui"
     ignore:
       # Ignore updates to packages that start with 'Wildcards'
       - dependency-name: "Microsoft.FeatureManagement.AspNetCore*"
@@ -36,7 +36,7 @@ updates:
     directory: "LearningHub.Nhs.WebUI/" # Location of package manifests
     schedule:
       interval: "daily"
-    target-branch: "Automatic_version_update_dependabot"
+    target-branch: "Develop/Features/TD-3683_implement_central_package_management_webui"
     #  - "dependencies"
     open-pull-requests-limit: 10
     ignore:
@@ -48,7 +48,7 @@ updates:
     directory: "AdminUI/LearningHub.Nhs.AdminUI/" # Location of package manifests
     schedule:
       interval: "daily"
-    target-branch: "Automatic_version_update_dependabot"
+    target-branch: "Develop/Features/TD-3683_implement_central_package_management_webui"
     #  - "dependencies"
     open-pull-requests-limit: 10
     ignore:
