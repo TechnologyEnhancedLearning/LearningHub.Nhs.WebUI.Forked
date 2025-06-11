@@ -22,7 +22,7 @@ updates:
     registries:
       - tel-azure-package-source
       - nuget-package-source
-    target-branch: "Develop/Features/TD-3683_implement_central_package_management_webui"
+    target-branch: "Automatic_version_update_dependabot"
     ignore:
       # Ignore updates to packages that start with 'Wildcards'
       - dependency-name: "Microsoft.FeatureManagement.AspNetCore*"
