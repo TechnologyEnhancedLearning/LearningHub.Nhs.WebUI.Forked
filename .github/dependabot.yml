@@ -39,6 +39,8 @@ updates:
         versions: [">7.0.0"]
       - dependency-name: "Microsoft.AspNetCore.Mvc.Testing"
         versions: [">7.0.0"]  
+      - dependency-name: "Azure.Storage.Files.Shares"
+        versions: [">12.11.0"]
       - dependency-name: "FluentAssertions"
         versions: [">6.12.0"]
       - dependency-name: "HtmlSanitizer"
