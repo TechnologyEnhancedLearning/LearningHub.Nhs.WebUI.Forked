@@ -29,8 +29,8 @@ updates:
       - dependency-name: "LearningHub.Nhs.Models*"
       - dependency-name: "LearningHub.Nhs.Caching*"
       - dependency-name: "elfhHub.Nhs.Models*"        
-      - dependency-name: "UK.NHS.CookieBanner*"   
-      - dependency-name: "GDS.MultiPageFormData*"      
+      - dependency-name: "UK.NHS.CookieBanner"   
+      - dependency-name: "GDS.MultiPageFormData"      
       - dependency-name: "linqtotwitter*"         
       # Ignore some updates to the package
       - dependency-name: "Microsoft.VisualStudio.Web.CodeGeneration.Design"
