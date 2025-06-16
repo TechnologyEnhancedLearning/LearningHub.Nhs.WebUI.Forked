@@ -38,7 +38,11 @@ updates:
       - dependency-name: "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
         versions: [">7.0.0"]
       - dependency-name: "Microsoft.AspNetCore.Mvc.Testing"
-        versions: [">7.0.0"]     
+        versions: [">7.0.0"]  
+      - dependency-name: "FluentAssertions"
+        versions: [">6.12.0"]
+      - dependency-name: "HtmlSanitizer"
+        versions: [">6.0.453"]
       - dependency-name: "xunit"
         versions: [">2.4.1"]
       - dependency-name: "xunit.runner.visualstudio"
