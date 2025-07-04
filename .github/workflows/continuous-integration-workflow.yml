@@ -86,21 +86,21 @@ jobs:
           node-version: '20'
           cache: 'npm'  
           
-      - name: Typescript install WebUI
-        run: yarn install --network-timeout 600000 
+      - name: npm install WebUI
+        run: npm install --legacy-peer-deps
         working-directory: ./LearningHub.Nhs.WebUI
-
-      - name: Typescript build WebUI
-        run: yarn build:webpack
+      
+      - name: npm build WebUI
+        run: npm run build:webpack
         working-directory: ./LearningHub.Nhs.WebUI     
       
-      - name: Typescript install AdminUI
-        run: yarn install 
+      - name: npm install AdminUI
+        run: npm install --legacy-peer-deps
         working-directory: ./AdminUI/LearningHub.Nhs.AdminUI
-
-      - name: Typescript build AdminUI
-        run: yarn build:webpack
-        working-directory: ./AdminUI/LearningHub.Nhs.AdminUI     
+      
+      - name: npm build AdminUI
+        run: npm run build:webpack
+        working-directory: ./AdminUI/LearningHub.Nhs.AdminUI   
       
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1.0.3
